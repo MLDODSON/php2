@@ -39,7 +39,7 @@ $bad_ass = array(
 				<h2><strong><?php echo $bad_ass["name"]; ?> is one evil muthusucker!</strong></h2>
 				<p class="bad"><span class="titan">Thanos</span> is not someone to mess with! This insane, murderous individual has an  
 					<strong><?php echo $bad_ass["danger_factor"] ?></strong> danger level! Making this nut even more dangerous
-					is his <strong><?php echo $bad_ass["power_level"]; ?></strong> power level and his <strong><?php echo $bad_ass["intelligance"]; ?></strong> genious level intelligance. This dude
+					is his <strong><?php echo $bad_ass["power_level"]; ?></strong> power level and his <strong><?php echo $bad_ass["intelligance"]; ?></strong> genious level intelligence. This dude
 					is just bad news! Someone needs to stop this guy!
 				</p>
 			</div><!-- end sandbox -->
