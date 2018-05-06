@@ -29,7 +29,7 @@ $bad_ass = array(
 				<img src="logo.png" alt="PHP">
 			</a>
 			
-		<h1><strong>Tutorial:</strong> <?php echo $lesson_num ?> <small><?php echo TITLE; ?></small></h1>
+		<h1><strong>Tutorial </strong><strong><?php echo $lesson_num ?></strong> <small><?php echo TITLE; ?></small></h1>
 			<hr>
 			
 		    <h2><strong>Final Example</strong></h2>
