@@ -7,8 +7,12 @@ $my_name = "The Mad Earthling of St. Louis";
 $lesson_num = 10;
 
 $fav_singer = "Blind Mellow Jelly";
+$fav_food = "pizza";
+$a = 700;
 $c = 125;
 $d = 900;
+
+
 
 ?>
 
@@ -58,7 +62,35 @@ $d = 900;
 				
 				?>
 				
+	
 			</div><!-- end sandbox -->
+		
+			<div class="sandbox">
+				
+				<?php
+					if($a < $c && $a < $d) {
+						echo "We are having pizza for dinner."; 
+					} else {
+						echo "We are going out to eat at the Golden Coral for dinner.";
+					}
+				
+				?>
+				
+		    </div>
+		
+			<div class="sandbox">
+				
+				<?php
+					if($a > $c || $a > $d) {
+						echo "We are having pizza for dinner."; 
+					} else {
+						echo "We are going out to eat at the Golden Coral for dinner.";
+					}
+				
+				?>
+				
+		    </div>
+		
 			
 			<a href="index.php" class="button">Back to the final example</a>
 			
