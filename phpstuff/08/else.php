@@ -4,7 +4,7 @@ define("TITLE", "Else Statements");
 
 // Custom Variables
 $my_name = "The Mad Earthling of St. Louis";
-$lesson_num = 10;
+$lesson_num = 11;
 
 $fav_singer = "Blind Mellow Jelly";
 $fav_food = "pizza";
