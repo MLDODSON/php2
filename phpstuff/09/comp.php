@@ -16,7 +16,7 @@ $birthCountry = "United States";
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Tutorial <?php echo $lessonNum ?> <?php echo TITLE; ?></title>
+<title>Tutorial<?php echo TITLE; ?></title>
 	<link rel="stylesheet" type="text/css" href="styles7.css">
 </head>
 
@@ -26,7 +26,7 @@ $birthCountry = "United States";
 				<img src="logo.png" alt="PHP">
 			</a>
 			
-		<h1><strong>Tutorial</strong> <small><?php echo TITLE; ?></small></h1>
+		<h1><strong>Tutorial <?php echo $lessonNum ?></strong> <small><?php echo TITLE; ?></small></h1>
 			<hr>
 			
 		<h2><strong>Final Example</strong></h2>
