@@ -10,7 +10,7 @@
 
 // Set your timezone (codes listed at http://php.net/manual/en/timezones.php)
 // Delete the following line if you've already defined a timezone elsewhere.
-date_default_timezone_set('America/Edmonton'); 
+date_default_timezone_set('America/Chicago'); 
 
 // Define daily open hours
 // Must be in 24-hour format, separated by dash 
@@ -18,13 +18,13 @@ date_default_timezone_set('America/Edmonton');
 // If open multiple times in one day, enter time ranges separated by a comma
 // If open late (ie. 6pm - 1am), add hours after midnight to the next day (ie. 00:00-1:00)
 $hours = array(
-    'mon' => array('00:00-00:00'),
-    'tue' => array('13:00-21:00'),
-    'wed' => array('13:00-21:00'),
-    'thu' => array('13:00-21:00'),
-    'fri' => array('16:00-23:00'),
-    'sat' => array('16:00-23:00'),
-    'mon' => array('00:00-00:00')
+    'mon' => array('08:00-21:00'),
+    'tue' => array('08:00-21:00'),
+    'wed' => array('08:00-21:00'),
+    'thu' => array('08:00-21:00'),
+    'fri' => array('08:00-21:00'),
+    'sat' => array('08:00-21:00'),
+    'sun' => array('00:00-00:00')
 );
 
 // Optional: add exceptions (great for holidays etc.)

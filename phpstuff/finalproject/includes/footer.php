@@ -17,19 +17,21 @@
 					
 					<strong>HOURS</strong>
 					<em>Monday - Friday</em><br>
-					9:00am - 4:00pm<br><br>
+					8:00am - 9:00pm<br><br>
 					
 					<em>Saturday</em><br>
-					9:00am - 12:00pm<br><br>
+					8:00am - 6:00pm<br><br>
 					
 					<em>Sunday</em><br>
 					Closed<br><br>
+					
+					<?php include("includes/store-hours.php"); ?>
 					
 				</div><!-- column -->
 				
 			</div><!-- footer -->
 			
-			<small>&copy;2018 Mad Mike</small>
+			<small>&copy;<?php echo date("Y"); ?> <?php echo $companyName; ?></small>
 			
 		</div><!-- content -->
 		
@@ -40,4 +42,8 @@
 	</div><!-- copyright-info -->
 		
 </body>
-</html>			
+</html>	
+
+
+
+https://github.com/coryetzkorn/php-store-hours
