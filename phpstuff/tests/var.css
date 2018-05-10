@@ -1,0 +1,38 @@
+body {
+	background: #f5f4f1 url('bg.jpg');
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 20px;
+	color: #353535;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.box {
+	padding: 20px;
+	background: #f8f5f1;
+	text-align: left;
+}
+
+small {
+	font-size: 36px;
+}
+
+.wrapper {
+	position: relative;
+	width: 620px;
+	margin: 60px auto;
+	padding: 40px;
+	background: #d7f7de;
+	text-align: center;
+}
+
+h1 {
+	color: #037c1e;
+	font-size: 3rem;
+}
+
+p {
+	font-size: 1.4rem;
+	line-height: normal;
+}
+
