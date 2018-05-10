@@ -46,4 +46,3 @@
 
 
 
-https://github.com/coryetzkorn/php-store-hours
