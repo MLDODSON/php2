@@ -1,45 +1,43 @@
-			<div id="footer" class="cf">
-			
-				<div class="column three">
-					<strong>Phone</strong>
-					808.529.3819
-				</div><!-- column -->
+<div id="footer" class="cf">
 				
 				<div class="column three">
-					<strong>Location</strong>
-					123 Kapiolani Boulevard<br>
-					Honolulu, HI
+					<strong>PHONE</strong>
+					888.369.8278
 				</div><!-- column -->
+				
+				
+				<div class="column three">
+					<strong>LOCATION</strong>
+					3958 Funklords Boulevard<br>
+					St. Louis, MO
+				</div><!-- column -->
+				
 				
 				<div class="column three last">
 					
-				
-					<strong>Hours</strong>
-					<em>Tuesday - Thursday</em><br>
-					1:00pm - 9:00pm<br><br>
+					<strong>HOURS</strong>
+					<em>Monday - Friday</em><br>
+					9:00am - 4:00pm<br><br>
 					
-					<em>Friday - Saturday</em><br>
-					4:00pm - 11:00pm<br><br>
+					<em>Saturday</em><br>
+					9:00am - 12:00pm<br><br>
 					
-					<em>Sunday - Monday</em><br>
-					Closed<br>
-					
-					<br>
-					
-					<?php include('includes/store-hours.php'); ?>
+					<em>Sunday</em><br>
+					Closed<br><br>
 					
 				</div><!-- column -->
-			
+				
 			</div><!-- footer -->
 			
-			<small>&copy;<?php echo date('Y'); ?> <a href="http://bradhussey.ca/course/codephp/"><?php echo $companyName; ?></a></small>
-		
+			<small>&copy;2018 Mad Mike</small>
+			
 		</div><!-- content -->
 		
 	</div><!-- wrapper -->
 	
 	<div class="copyright-info">
-		<?php include('../assets/includes/copyright.php'); ?>
+		<?php include("../includes/copyright.php") ?>
 	</div><!-- copyright-info -->
+		
 </body>
-</html>
+</html>			
